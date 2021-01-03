@@ -157,13 +157,13 @@ function and(x, y) {
 //
 // 10. Define a function named `concat` that takes in two input arguments. If both arguments are strings, then return the concatenated result. If two numbers are provided, then return the string concatenation of each set of numerals.
 function concat(x, y) {
-    return ("x + y");
+    return (String(x) + String(y));
 }
-// concat("code", "up")                // "codeup"
-// concat("connect", 4)                // "connect4"
-// concat("hello", "world")            // "helloworld"
-// concat(4, 2)                        // "42"
-// concat(true, true)                  // "truetrue"
+console.log(concat("code", "up"));                // "codeup"
+console.log(concat("connect", 4));                // "connect4"
+console.log(concat("hello", "world"));            // "helloworld"
+console.log(concat(4, 2));                        // "42"
+console.log(concat(true, true));                  // "truetrue"
 //
 // ## Hints
 //
